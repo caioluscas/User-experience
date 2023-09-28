@@ -1,0 +1,23 @@
+p.formatacao1{
+    border-top: 1px;
+}
+table{
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+.imagem1{
+    text-align: center;
+}
+h1{
+    border-right: 5px inset orange;
+    border-left: 5px inset orange;
+    border-bottom: 5px inset orange;
+}
+h2::first-letter{
+    font-size: 200%;
+}
+ul{
+    border:5px double ;
+    border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+ul{
+    border: 3px solid #333333;
+    border-radius: 20px;
+    list-style-image:url(quadrado.gif);
+}
+ol{
+    list-style-type: upper-roman;
+}
+p:not(.especial){
+    color: pink;
+}

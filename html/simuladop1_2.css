@@ -1,0 +1,9 @@
+.brancop{
+    color: blanchedalmond;
+}
+.ult::first-line{
+    display: inline;
+    word-spacing: 10px;
+    color: pink;
+    font-size: 30px;
+}
