@@ -1,0 +1,14 @@
+.letraGG::first-letter{
+    font-size: 200%;
+    color: pink;
+
+}
+.p:not(.especial){
+    color: black;
+}
+.borda_m{
+    border-bottom: 2px solid #333333;
+    border-left:2px solid #333333;
+    border-right:2px solid #333333;
+    border-top:2px solid #333333;
+}

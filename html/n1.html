@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n1</title>
+    <style>
+        .romano{
+            list-style-type: upper-roman;
+        }
+        .circulo{
+            list-style-type:circle;
+        }
+        .nenhum{
+            list-style-type:none;
+        }
+        .quadrado{
+            list-style-type:square;   
+        }
+        .letra{
+            list-style-type:lower-latin;   
+        }
+    </style>
+</head>
+<body>
+    <p align="center">Tabela 1: <i>Suldeste x Sul</i></p>
+    <table border="1" align="center">
+        <tr>
+            <td colspan="3" align="center"><b>BRASIL</b></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><b>Estados</b></td>
+            <td><b>Cidades</b></td>
+        </tr>
+        <tr>
+            <td align="left" rowspan="4"><b>Sudeste</b></td>
+            <td>São Paulo</td>
+            <td>
+                <ol>
+                    <li class="circulo">Campinas</li>
+                    <li class="circulo">Campos do Jordão</li>
+                    <li class="circulo">Olimpia</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Espírito Santo</td>
+            <td>
+                <ol>
+                    <li>Vitória</li>
+                    <li>Vila Velha</li>
+                    <li>Serra</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td>
+                <ul>
+                    <li class="quadrado">Belo Horizonte</li>
+                    <li class="quadrado">São Lourenço</li>
+                    <li class="quadrado">Cataguases</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td>
+                <ol list-style-type: upper-roman;>
+                    <li class="romano">Macaé</li>
+                    <li class="romano">Rio das Ostras</li>
+                    <li class="romano">Casimiro de Abreu</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" rowspan="4"><mark><b>Sul</b></mark></td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td>
+                <ul>
+                    <li>Porto Alegre</li>
+                    <li>Gramado</li>
+                    <li>Pelotas</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td>
+                <ol>
+                    <li class="nenhum">Curitiba</li>
+                    <li class="nenhum">Maringá</li>
+                    <li class="nenhum">Londrina</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>
+                <ol>
+                    <li class="letra">Florianópolis</li>
+                    <li class="letra">Tubarão</li>
+                    <li class="letra">Blumenau</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
